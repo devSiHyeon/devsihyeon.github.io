@@ -14,45 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link href="images/dev.png" rel="icon" type="image/x-icon">
-
-<style>
-
- 
-
- 
-
-.body{
-
-	margin-top:100px;
-
-}
-
- 
-
-ul{
-
-	list-style-type: none;
-
-}
-
- 
-
-.top_img {
-
-	width:20px;
-
-}
-
- 
-
-.navbar{
-
-	border-bottom: #FFE082 5px solid; 
-
-}
-
-</style>
-
+<link rel="stylesheet" href="home.css" />
 </head>
 
 <body>
