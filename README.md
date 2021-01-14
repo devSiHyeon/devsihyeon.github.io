@@ -27,9 +27,9 @@
 
 	  <div class="container-fluid">
 
-		<a href="home.html">
+		<a href="https://devsihyeon.github.io/">
 
-			<img src="./images/home.png"/ class="mx-auto" style="width:30px; height:30px;">
+			<img src="./images/home.png"/ class="mx-auto" >
 
 		</a>
 
