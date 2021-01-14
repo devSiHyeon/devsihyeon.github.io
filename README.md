@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
 
-<title>si_hyeon</title>
+
 
 <!-- Bootstrap CSS -->
 
@@ -343,7 +343,7 @@ ul{
 
 					
 
-					<a href="project.html"> 
+					<a href="Portfolio/project.html"> 
 
 						<span class="btn btn-outline-warning ml-2"  style="width:100px;">Project</span></a>
 
