@@ -1,0 +1,24 @@
+.body{
+	margin-top:100px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.top_img {
+	width:20px;
+}
+
+.navbar{
+	border-bottom: #FFE082 5px solid; 
+}
+
+.text1{
+ font-size:11px;	
+}
+
+.text2{
+ font-size:12px;	
+}
+
