@@ -11,7 +11,7 @@ ul{
 }
 
 .navbar{
-	border-bottom: 		#FFFF00 5px solid; 
+	border-bottom:#FFFF00 5px solid; 
 }
 
 .text1{
@@ -23,6 +23,6 @@ ul{
 }
 
 .mian_img {
-	width:20px;
-	height:20px;
+	width:35px;
+	height:35px;
 }
