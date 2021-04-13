@@ -15,9 +15,14 @@ ul{
 }
 
 .text1{
- font-size:11px;	
+	 font-size:11px;	
 }
 
 .text2{
- font-size:14px;	
+	 font-size:14px;	
+}
+
+.mian_img {
+	width:20px;
+	height:20px;
 }
