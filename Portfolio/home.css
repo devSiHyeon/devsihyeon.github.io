@@ -26,3 +26,12 @@ ul{
 	width:35px;
 	height:35px;
 }
+
+.image-box {
+    overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: 100%;
+}
