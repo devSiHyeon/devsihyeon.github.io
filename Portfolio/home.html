@@ -15,7 +15,7 @@
 <body>
 <!-- 상단메뉴 -->
 <div>
-	<nav class="navbar navbar-expand-sm- navbar-light  bg-light fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
 	  <div class="container-fluid">
 		<a href="home.html">
 			<img src="./images/home.png"/ class="mx-auto" style="width:30px; height:30px;">
@@ -149,6 +149,28 @@
 	
 	<!-- 프로젝트 -->
 	<h2 class="mt-5 font-weight-bold" >Project</h2>	
+	<!-- 프로젝트3 : color shop -->
+	<div class="row mx-auto mt-3 mb-5" style="width:90%;">
+		<div class="col-sm-6 image-box">
+			<img src="images/color_shop_main.png">
+		</div>
+	    <div class="col-sm-6 border" style="max-idth:600px;">
+			<div>
+				<ul class="text2">				
+					<li class="mt-4">기간</li> 
+					<li class="ml-4"> : 2021.06.01 ~ 진행중</li>
+					<li class="mt-4" >설명 </li> 
+					<li class="ml-4"> : 회원 & 관리자 페이지로 나누어진 문구 쇼핑몰입니다.</li>
+					<li class="mt-4">활용기술</li> 
+					<li class="ml-4 mb-3"> : HTML5, CSS3, JS, BootStrap, PHP, SQL, Ajax</li>
+					<li class=" mx-auto text-right">						
+							<button data-toggle="modal" data-target="#modal_3" id="modal_3_open" class="btn btn-outline-dark"> Project </button>
+					</li>
+										
+				</ul>
+			</div>			
+	    </div>	
+	</div>	
 	
 	<!-- 프로젝트2 : hospital -->
 	<div class="row mx-auto mt-3 mb-5" style="width:90%;">
@@ -159,7 +181,7 @@
 			<div>
 				<ul class="text2">				
 					<li class="mt-4">기간</li> 
-					<li class="ml-4"> : 2021.06.01 ~ </li>
+					<li class="ml-4"> : 2021.05.01 ~ 2021.07.16</li>
 					<li class="mt-4" >설명 </li> 
 					<li class="ml-4"> : 재활치료 병원을 생각하고 만든 사이트입니다.</li>
 					<li class="mt-4">활용기술</li> 
@@ -196,17 +218,57 @@
 	</div>	
 </div>	
 
+<!-- Modal : project3-->
+	<div class="modal fade" id="modal_3" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color:#f9bba8;">
+					<h4 class="modal-title">Color_Shop</h4>
+				</div>
+				<div class="modal-body">
+					<p><span class="span_color_3">기간 :</span> 2021.06.01 ~ 진행중</p>
+					<p><span class="span_color_3">설명 :</span> 문구 쇼핑몰입니다.</p>
+					<p><span class="span_color_3">기능 :</span> 회원가입 및 로그인</p>
+						<span class="left">관리자 - 상품등록, 입고관리, 재고관리, 출고관리</span></p>
+						<span class="left">회원 - 고객 게시판</span></p>
+					<p><span class="span_color_3">정보 :</span> <span class="admin">관리자 정보</span></p>
+					<p class="left">HTML5, CSS3, JS, BootStrap</p>
+					<p class="left">PHP, Ajax, My-SQL</p>
+
+					<div class="float-right">
+						<a href="http://hye0n.dothome.co.kr/color/Index.php" target="_blank">
+							<span class="btn btn-outline-success ml-2 text2" style="width:90px;">HomePage</span></a>
+						
+						<a href="https://github.com/devSiHyeon/devSiHyeon/tree/main/color_shop"   target="_blank"> 
+							<span class="btn btn-outline-dark ml-2 text2"  style="width:80px;">GitHub</span></a>
+						
+						<a href="https://devsihyeon.github.io/Portfolio/pdf/color_shop.pdf">
+							<span class="btn btn-outline-warning ml-2 text2"  style="width:90px;">상세정보</span></a>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">닫기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 <!-- Modal : project2-->
 	<div class="modal fade" id="modal_2" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color:#b1dcd3;">
 					<h4 class="modal-title">Rehabilitation Hospital</h4>
 				</div>
 				<div class="modal-body">
-					<p>기간 : 2021.06.01 ~ </p>
-					<p>재활치료 병원을 생각하고 만든 사이트입니다.</p>
-					<p>HTML5, CSS3, JS, BootStrap, PHP, My-SQL</p>
+					<p><span class="span_color_2">기간 : </span>2021.05.01 ~ 2021.07.16</p>
+					<p><span class="span_color_2">설명 : </span>재활치료 병원 사이트입니다.</p>
+					<p class="left">고객문의 게시판</p>	
+					<p class="left">: 고객이 게시판에 문의를 남기면 문자로 답을 알려주는 시스템입니다.</p>	
+					<p class="left">입원상담</p>	
+					<p class="left">: 글을 남기면 관리자만 볼 수 있습니다. (페이지 없음)</p>	
+					<p class="left">HTML5, CSS3, JS, BootStrap</p>					
+					<p class="left">PHP, My-SQL</p>
 					<div class="float-right">
 						<a href="http://hye0n.dothome.co.kr/hospital/hospital_Index.php" target="_blank">
 							<span class="btn btn-outline-success ml-2 text2" style="width:90px;">HomePage</span></a>
@@ -219,7 +281,7 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dimd-iss="modal">닫기</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">닫기</button>
 				</div>
 			</div>
 		</div>
@@ -229,14 +291,16 @@
 	<div class="modal fade" id="modal_1" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color:#caa877;">					
 					<h4 class="modal-title">SHINNA Hotel</h4>
 				</div>
 				<div class="modal-body">
-					<p>기간 : 2020.12.01 ~ 2021.01.15 </p>
-					<p>팀원 : 3명</p>
-					<p>회원제로 실시되는 호텔 사이트로서 객실을 예약하는 시스템의 홈페이지입니다.</p>
-					<p>HTML5, CSS3, JS, BootStrap, JAVA, JSP, JQuery, My-SQL</p>
+					<p><span class="span_color_1">기간 : </span>2020.12.01 ~ 2021.01.15 </p>
+					<p><span class="span_color_1">팀원 : </span>3명</p>
+					<p><span class="span_color_1">설명 : </span>회원제로 실시되는 호텔 사이트로서 객실을 예약하는 
+						<span class="left">시스템의 홈페이지입니다.</span></p></p>
+					<p class="left">HTML5, CSS3, JS, BootStrap</p>
+					<p class="left">JAVA, JSP, JQuery, My-SQL</p>
 					<div class="text-center mb-3">
 						<img src="main.gif" width="90%" height="300px">
 					</div>
@@ -251,7 +315,7 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dimd-iss="modal">닫기</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">닫기</button>
 				</div>
 			</div>
 		</div>

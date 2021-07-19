@@ -35,3 +35,23 @@ ul{
 	width: auto;
 	height: 100%;
 }
+.span_color_1{	
+	color:#b5863f;
+}
+.span_color_2{	
+	color:#8dcdbf;
+}
+.span_color_3{	
+	color:#ed3535;
+}
+
+.admin:hover{
+	color:#f69678;
+}
+.admin:hover:after{
+	content: " (admin / 123)";
+}
+
+.left{
+	padding-left:45px;
+}

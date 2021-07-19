@@ -33,7 +33,7 @@ $(function () {
 		}
 		$("nav li span").appendTo("nav li:eq(" + index + ") > a ");
 	});
-
+	
 });
 
  
